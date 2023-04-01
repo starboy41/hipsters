@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  pading :0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#navbar{
+  padding: 10px 10px;
+  font-family: 'kanit';
+}
+
+#offcanvasNavbar{
+  width: 50vh;
+  background-color: #002241;
+  color: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+}
+
+.offcanvas-body{
+  background-color: #002241;
+  color: #fff;
+  padding: 20px 20px;
+}
+
+.offcanvas-body ul li a{
+  color: #fff;
+}
+.offcanvas-body ul li a:hover{
+  color: #2986cc;
+}
+
+.nav-colored{
+  background-color: #002241;
+}
+
+.nav-transparent{
+  background-color :transparent;
+}
+
+.navfooter{
+  font-size: 13px;
+  color: #bcbcbc;
+}
+
+/********************banner*******************/
+
+#home{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/bannerbg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ban{
+  color: #f3f6f4;
+  padding: 60px;
+}
+
+.wel{
+  color: #bcbcbc;
+}
+
+
+ul.btns{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 7px;
+}
+ul.btns li{
+  display: block;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+.more{
+  color: #f3f6f4;
+}
+ul.btns li a{
+  text-decoration: none;
+  border: #fff 2px solid;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-family: kanit;
+  font-size: 16px;
+}
+ul.btns li a:hover{
+  background-color: #f3f6f4;
+  color: #000;
+  transition: 0.3s ease;
+}
+
+
+/***************about us***************/
+
+#aboutus{
+  height: 200vh auto;
+}
+
+#aboutus .t{
+  text-align: center;
+  font-family: kanit;
+  background-color: #002241;
+  padding: 40px;
+}
+
+.s-intro{
+  font-size: 70px;
+}
+
+.t::after{
+  content: '';
+  height: 2px;
+  width: 70%;
+  background: #bcbcbc;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about{
+  color: #bcbcbc;
+  font-size: 30px;
+}
+
+.links{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 7px;
+}
+
+ul.links li{
+/*  display: block;*/
+display: inline-block;
+}
+
+.social{
+  background-color: #fcfcfc;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*-------------------SERVICES----------------------*/
+.ser-in{
+  text-align: center;
+}
+
+.ser-intro{
+  color: #002241;
+  font-size: 25px;
+}
+
+.ser{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.print-col{
+  width: 50vh;
+  font-size: 20px;
+  color: #5b5b5b;
+  text-align: center;
+}
+
+.print-col h3{
+  color: #000;
+}
+
+
+/*--------------------------------PRODUCTS-------------------------------*/
+
+
+.bg{
+  background-color: #f3f6f4;
+}
+
+.pro-in{
+  text-align: center;
+}
+
+.pro-intro{
+  color: #002241;
+  font-size: 25px;
+}
+
+.pro{
+  font-size: 40px;
+  font-weight: 440;
+}
+

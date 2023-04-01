@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>product-card</title>
+</head>
+<body>
+	<div class="card">
+		<img src="chrome.jpg" class="card-img">
+		<div class="card-body">		
+			<h1 class="card-title">
+				STEVE
+			</h1>
+			<p class="card-sub-title">Magna qui irure duis veniam irure veniam incididunt veniam ad.</p>
+			<p class="card-info">Sunt qui nulla incididunt elit exercitation fugiat ut officia non fugiat amet ut et excepteur. Culpa ut sed fugiat magna consectetur enim dolor aliqua sed est. Do nostrud culpa magna exercitation nostrud enim nulla adipisicing quis sunt ut labore exercitation. Sit proident adipisicing amet id exercitation qui tempor in ullamco ad magna. Laboris qui enim culpa velit proident excepteur laboris ut fugiat enim quis consequat aliquip elit aliqua.
+				<br>
+				<br>
+			<a href="#"><button class="card-btn">VIEW MORE</button></a></p>
+
+		<div>
+	</div>
+</body>
+</html>
+
+<!-- --------------------------------------------- -->
+
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+
+	body{
+		background: #36768c;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.card{
+		width: 900px;
+		height: 500px;
+		border-radius: 20px;
+		overflow: hidden;
+		border: 8px solid #fff;
+		position: relative;
+	}
+
+	.card-img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+/*		border-radius: 20px;*/
+	}
+
+	.card-body{
+		width: 100%;
+		height: 100%;
+/*		top: 0;*/
+		right: 0;
+		bottom: -100%;
+		position: absolute;
+/*		background: #1f3d479;*/
+/*		background-color: #fff;*/
+		backdrop-filter: blur(5px);
+		color: #fff;
+		padding: 30px 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		transition: 0.3s ease;
+	}
+
+	.card-title{
+		font-weight: 800;
+		padding: 30px;
+	}
+
+	.card-sub-title{
+		font-weight: 400;
+		padding: 0 30px;
+	}
+
+	.card-info{
+		margin: 40px 0;
+		padding: 30px;
+	}
+
+	.card-btn{
+		color: #1f3d47;
+		background: #8fabba;
+		padding: 10px 20px;
+		border-radius: 5px;
+		text-transform: capitalize;
+		border: none;
+		outline: none;
+		font-weight: 500;
+		cursor: pointer;
+	}
+
+	.card:hover .card-body{
+		bottom: 0;
+	}
+</style>
+
+
+
+
+<!-- .card{
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 8px solid #fff;
+  position: relative;
+}
+
+.card-img{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+/*    border-radius: 20px;*/
+}
+
+.card-body{
+  width: 100%;
+  height: 100%;
+  right: 0;
+  bottom: -100%;
+  position: absolute;
+  /*    background: #1f3d479;*/
+  /*    background-color: #fff;*/
+  backdrop-filter: blur(5px);
+  color: #000;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.card-title{
+  font-weight: 800;
+/*  padding: 30px;*/
+}
+
+.card-sub-title{
+  font-weight: 400;
+}
+
+/*.card-info{
+  margin: 40px 0;
+  padding: 30px;
+}
+*/
+.card-btn{
+  color: #1f3d47;
+  background: #8fabba;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.card:hover .card-body{
+  bottom: 0;
+} -->
